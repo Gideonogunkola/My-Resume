@@ -225,3 +225,41 @@ p {
   width: 40%;
   height: auto;
 }
+
+@media only screen and (max-width: 785px) {
+    .header .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 3em 1em 2rem 1em;
+        justify-items: center;
+      }
+      
+      .container > .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 3em 3em 2rem 3em;
+      }
+      .header .wrapper img {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+        border-radius: 100%;
+        border: 6px white solid;
+        background: #090c11;
+        position: absolute;
+        top: 40px;
+      }
+      .action{
+          display: flex;
+          justify-content: center;
+      }
+      h2 {
+        font-size: 2rem;
+        text-align: center;
+      }
+      
+      h4 {
+        font-size: 1.2rem;
+        text-align: center;
+      }
+  }
